@@ -9,7 +9,7 @@ Heart Disease (including Coronary Heart Disease, Hypertension, and Stroke) remai
 
 ## Project Overview
 
-In this Project I will try to unleash useful insights using this heart disease datasets and will perform feature selection to build Soft Voting Ensemble model by combining the power of best performing machine learning algorithms.
+In this Project I have tried to unleash useful insights using this heart disease datasets and will perform feature selection to build Soft Voting Ensemble model by combining the power of best performing machine learning algorithms.
 
 This Project is divided into 13 major steps which are as follows:
 
@@ -46,38 +46,4 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 #### Target variable
 **12. target:** It is the target variable which we have to predict 1 means patient is suffering from heart risk and 0 means patient is normal.
 
-## Installations :
-This project requires Python 3.x and the following Python libraries should be installed to get the project started:
-- [Numpy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [matplotlib](https://matplotlib.org/)
-- [scikit-learn](https://scikit-learn.org/stable/)
-- [seaborn](https://seaborn.pydata.org/installing.html)
-- [xgboost](https://xgboost.readthedocs.io/en/latest/build.html)
-
-I also reccommend to install Anaconda, a pre-packaged Python distribution that contains all of the necessary libraries and software for this project which also include jupyter notebook to run and execute [IPython Notebook](http://ipython.org/notebook.html).
-
-## Code :
-Actual code to get started with the project is provided in two files one is,```heart-disease-classification.ipynb```
-
-## Run :
-In a terminal or command window, navigate to the top-level project directory PIMA_Indian_Diabetes/ (that contains this README) and run one of the following commands:
-
-```ipython notebook heart-disease-classification.ipynb```
-or
-
-```jupyter notebook heart-disease-classification.ipynb```
-
-This will open the Jupyter Notebook software and project file in your browser.
-
-## Model Evaluation :
-I have done model evaluation based on following sklearn metric.
-1. [Cross Validation Score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
-2. [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
-3. [Plotting ROC-AUC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
-4. [Plotting Precision recall Curve](https://acutecaretesting.org/en/articles/precision-recall-curves-what-are-they-and-how-are-they-used)
-5. [Sensitivity and Specitivity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
-6. [Classification Error](https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/)
-7. [Log Loss](https://www.kaggle.com/dansbecker/what-is-log-loss#:~:text=Log%20Loss%20is%20a%20slight,by%20understanding%20the%20likelihood%20function.)
-8. [Mathew Correlation coefficient](https://www.kaggle.com/dansbecker/what-is-log-loss#:~:text=Log%20Loss%20is%20a%20slight,by%20understanding%20the%20likelihood%20function.)
 
